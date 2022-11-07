@@ -1,5 +1,5 @@
-let num1 = prompt ('x' );
-let num2 = prompt ('y') ;
+let num1 = prompt ('enter x' );
+let num2 = prompt (' enter y') ;
 
 if(num1 >= num2 )
 { 
@@ -7,8 +7,8 @@ if(num1 >= num2 )
   alert('Hello world');
   document.write('Hello world');
  }
- else{
+else{
   console.log('Goodbye');
   alert('Goodbye');
   document.write('Goodbye');
- }
+}
