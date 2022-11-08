@@ -19,15 +19,15 @@
 
 ////////////////////////////////
 
-// function calculateSupply (age ,amount)
-// {
+function calculateSupply (age ,amount)
+{
     
-//    x = 100-age ;
-//    y= amount * x *365 ;
+   x = 100-age ;
+   y= amount * x *365 ;
 
-//     console.log('You will need ' + y + ' cups of tea to last you until the ripe old age of 100')
-// }
-// calculateSupply (22 ,6)
+    console.log('You will need ' + y + ' cups of tea to last you until the ripe old age of 100')
+}
+calculateSupply (22 ,6)
 
 /////////////////////////
 
@@ -123,4 +123,30 @@
 // sameLength("salwa" ,"mohammad")
 
 //////////////
-
+//13
+function  shorterString (st1 , st2 , st3 ,st4 ,st5)
+{
+  if ((st1.length< st2.length) && (st1.length< st3.length) && (st1.length<st4.length) && (st1.length<st5.length))
+ {
+  console.log(st1)
+ }
+ if ((st2.length< st1.length) && (st2.length< st3.length) && (st2.length<st4.length) && (st2.length<st5.length))
+ {
+  console.log(st2)
+ }
+ if ((st3.length< st1.length) && (st3.length< st2.length) && (st3.length<st4.length) && (st3.length<st5.length))
+ {
+  console.log(st3)
+ }
+ if ((st4.length< st1.length) && (st4.length< st2.length) && (st4.length<st3.length) && (st4.length<st5.length))
+ {
+  console.log(st4)
+ }
+ if ((st5.length5< st1.length) && (st5.length< st2.length) && (st5.length<st3.length) && (st5.length<st4.length))
+ {
+  console.log(st4)
+ }
+ 
+}let new_input=prompt("inter any string")
+shorterString (new_input, "school", "car" ,"by" ,"github");
+ 
