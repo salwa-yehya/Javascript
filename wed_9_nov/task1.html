@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+             width: 300px;
+             height: 250px;
+             background-color: yellow;
+             text-align: center;
+             padding-top: 100px;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <div id="box" ><h1 id ="text">HELLO WORLD!</h1></div>
+   
+   <script>
+   let text=document.getElementById('text')
+   text.onmouseover=function(){
+    text.innerHTML="يادي النيلة"
+   }
+   text.onmouseout=function(){
+    text.innerHTML="HELLO WORLD!"
+   }
+   </script>
+  
+    
+  
+</body>
+</html>

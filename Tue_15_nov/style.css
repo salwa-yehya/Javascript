@@ -1,0 +1,23 @@
+*{
+   box-sizing: border-box;
+   padding: 0%;
+   margin: 0%;
+
+}
+
+#form{
+    color: white;
+line-height: 2;
+text-align: center;
+margin : 25% 25% ;
+border: 2px solid black;
+width: 50%;
+background-color: rgb(181, 137, 222);
+}
+#btn{
+    color:white ;
+    background-color: violet ;
+    border: violet;
+    padding: 1%;
+    border-radius: 30%;
+}
